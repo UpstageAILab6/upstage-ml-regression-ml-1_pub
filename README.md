@@ -4,26 +4,39 @@
 
 | ![박패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![최패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![김패캠](https://avatars.githubusercontent.com/u/156163982?v=4) | ![오패캠](https://avatars.githubusercontent.com/u/156163982?v=4) |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-|            [박패캠](https://github.com/UpstageAILab)             |            [이패캠](https://github.com/UpstageAILab)             |            [최패캠](https://github.com/UpstageAILab)             |            [김패캠](https://github.com/UpstageAILab)             |            [오패캠](https://github.com/UpstageAILab)             |
-|                            팀장, 담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |
+|            [김솔하](https://github.com/UpstageAILab)             |            [전종훈](https://github.com/UpstageAILab)             |            [심원형](https://github.com/UpstageAILab)             |            [김지혜](https://github.com/UpstageAILab)             |            [김용욱](https://github.com/UpstageAILab)             |
+|                   팀장, 전체과정참여 및 조율                             |                            모델선택/학습                             |                            전저리/모델 학습                             |                            모델학습/PPT작성                             |                            인사이트제공/PPT작성                             |
 
 ## 0. Overview
 ### Environment
-- _Write Development environment_
+- Jupyter Notebook
+- Ubuntu
+- VScode
+- python
+- numpy, pandas
+- sklearn
+- matplotlib, seaborn
 
 ### Requirements
-- _Write Requirements_
+- catboost==1.2.7
+- eli5==0.13.0
+- numpy==1.23.5
+- optuna==4.1.0
+- pandas==1.5.3
+- scikit-learn==1.0.2
+- scipy==1.15.0
+- seaborn==0.12.2
 
 ## 1. Competiton Info
 
 ### Overview
 
-- _Write competition information_
+- 서울시 아파트 실거래가 매매 데이터를 기반으로 아파트 가격을 예측하는 대회
 
 ### Timeline
 
-- ex) January 10, 2024 - Start Date
-- ex) February 10, 2024 - Final submission deadline
+- 2024.12.23 - Start Date
+- 2025.01.07 - Final submission deadline
 
 ## 2. Components
 
@@ -51,11 +64,14 @@ e.g.
 
 ### Dataset overview
 
-- _Explain using data_
+- 매매 거래 기록
+- 주소, 아파트명, 층 등의 칼럼 존재
+
 
 ### EDA
 
-- _Describe your EDA process and step-by-step conclusion_
+- 결측치가 75%이상인 칼럼 다수 존재
+- 아파트명, 좌표 x, 좌표y 결측치 존재
 
 ### Data Processing
 
